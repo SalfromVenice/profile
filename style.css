@@ -41,6 +41,10 @@ a :hover {
   color: #7d7f81;
 }
 
+.btn {
+  margin-bottom: 1.5em;
+}
+
 div {
   border-radius: 15px;
   margin: 2%;
