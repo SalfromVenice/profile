@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Zen+Kaku+Gothic+Antique:wght@300;500&display=swap');
+
+body {
+  background-color: #F2F8F7;
+  background-image: linear-gradient(to bottom right, white, #C3D5C4);
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  color: #383B42;
+  font-size: medium;
+  text-align: center;
+}
+
+img {
+  width: 70%;
+  border-radius: 5%;
+  margin: 10%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 500;
+}
+
+h1, h2 {
+  font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+  margin: 2%;
+}
+
+a {
+  color: #7d7f81;
+}
+
+a :hover {
+  text-decoration: none;
+  color: none;
+}
+
+div {
+  border-radius: 15px;
+  margin: 2%;
+}
+
+.left, .right {
+  background-color: #C3D5C4;
+  padding: 2%;
+  margin: 10%, 15%;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.header {
+  margin-bottom: 10%;
+}
+
+.footer > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer > ul > li {
+  display: inline;
+  font-size: xx-large;
+}
+
+li :hover {
+  text-decoration: none;
+}
+
+#facebook :hover {
+  color: #3B5998;
+  text-decoration: none;
+}
+
+#youtube :hover {
+  color: #C4302B;
+  text-decoration: none;
+}
+
+#github :hover {
+  color: #333;
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  .left {
+    text-align: left;
+  }
+
+  img {
+  width: 30%;
+  border-radius: 5%;
+  margin: 0%;
+  }
+
+  .right {
+    display: flex;
+   justify-content: space-around;
+  }
+
+  .header, .footer {
+    width: fit-content;
+    display: inline;
+  }
+
+  .footer{
+    margin-top: 3em;
+  }
+}
+
+@media (min-width: 900px) {
+  .main{
+  display: flex;
+  justify-content: space-around;
+  }
+
+  img {
+  width: 70%;
+  border-radius: 5%;
+  margin: 10%;
+}
+  div {
+    text-align: center;
+  }
+
+  .left, .right{
+    display: inline;
+    width: 40%;
+  }
+}
